@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+
+<title>LTI Finance>
+<link rel="stylesheet" type="text/css" href="style1.css">
+
+</head>
+<body>
+<div class="header-section">
+	<div class = "nav">
+		<ul>
+		<li><a href='index.jsp'>Home</a></li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<li><a href="#">About Us</a></li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<li><a href="#">Contact Us</a>
+		<ul>
+		
+		</ul>
+		</li>
+		</ul>
+	</div>
+</div>
+<div class="container">
+<div id="register"  class="animate form">
+<form action="register.do" method="post" >
+	<h1>Register Yourself </h1>
+
+<input type="text" name="fname" id="fname" placeholder="First Name" >
+<div id="id1"></div>
+
+<br>
+<input type="text" name="lname" id="lname" placeholder="Last Name" >
+<div id="id2"></div>
+
+<br>
+<input type="text" name="username" id="username" placeholder="UserName" >
+<div id="id3"></div>
+
+<br>
+<input type="password" name="password" id="password" placeholder="Password" >
+<div id="id4"></div>
+
+<br>
+<input type="text" name="contact" id="contact_no" placeholder="Contact Number" >
+<div id="id5"></div>
+
+<br>
+<input type="email" name="email" id="email" placeholder="Email-id" >
+<div id="id6"></div>
+
+<br>
+<textarea rows="5" cols="30" placeholder="Address" name="address"></textarea>
+
+<br>
+Card Type: <input type="radio" name="card_type" id="card_type" value="Gold">Gold
+           <input type="radio" name="card_type" id="card_type" value="Titatinum">Titanium
+ <div id="id7"></div>
+ 
+ <br><br>
+ Bank: <select name="bank" id="bank">
+ <option name="HDFC" id="HDFC" value="HDFC">HDFC
+  <option name="ICICI" id="ICICI" value="ICICI">ICICI
+   <option name="SBI" id="SBI" value="SBI">SBI
+    <option name="IDBI" id="IDBI" value="IDBI">IDBI
+    <option name="Axis" id="Axis" value="Axis">Axis
+ </select>          
+ <div id="id8"></div>
+ <br>
+ <input type="text" name="account_no" id="account_no" placeholder="Account Number">
+ <div id="id9"></div>
+ 
+ <br>
+ <input type="text" name="ifsc" id="ifsc" placeholder="IFSC Code">
+ <div id="id10"></div>
+ 
+ <br>
+ <input type="submit" class="submit" onclick="return valid()" value="Submit">
+ 
+ </div>
+ 
+   </form>
+  </div>
+</body>
+</html>
